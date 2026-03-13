@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"os"
 
 	"github.com/joho/godotenv"
 )
@@ -13,7 +12,3 @@ func init() {
         log.Println("Error loading .env file")
     }
 }
-
-var (
-	apiKey = os.Getenv("API_KEY")
-)

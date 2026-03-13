@@ -1,4 +1,4 @@
-package main
+package Models
 
 type Match struct {
 	Metadata Metadata `json:"metadata"`
